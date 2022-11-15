@@ -1,0 +1,3 @@
+javac *.java
+jar cvfm app.jar manifest.txt *.class
+java -jar app.jar
